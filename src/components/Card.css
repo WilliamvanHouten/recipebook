@@ -1,0 +1,39 @@
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .view-recipe-button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .view-recipe-button {
+    background-color: #007bff;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .view-recipe-button:hover {
+    background-color: #ff0606;
+  }
+  .card {
+    overflow: hidden;
+    box-shadow: 0 2px 20px #767b91;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    transition: transform 200ms ease-in;
+    border-radius: 0.5rem;
+  }
+
+  .card-hover:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1); /* Shadow effect on hover */
+  }
